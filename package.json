@@ -1,0 +1,22 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.1.7",
+    "firebase": "^9.16.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^1.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

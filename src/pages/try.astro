@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro'
+import logos from '../images/deploy-logos.png';
+import logosSmall from '../images/deploy-logos-small.png';
+---
+
+<Layout title="try Astro">
+  <section class="page-content">
+    <div class="container">
+      <h2>Try Astro</h2>
+      
+
+      <Card dark={true}>
+        <h3>Use the tools you already love</h3>
+        <p>
+          This is a try out page for astro js
+        </p>
+      </Card>
+      
+      <h3>Deploy to anywhere, even the edge</h3>
+      <img class="logos" src={logos} alt="" />
+      <img class="logos-small" src={logosSmall} alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+        doloribus, vel ipsum mollitia aliquid cumque commodi corrupti omnis
+        ipsam sit earum, dolore quisquam harum qui non, quasi ea voluptatum
+        debitis!
+      </p>
+
+
+        <h3>Join our Community</h3>
+        <p>
+          Join us in the Astro Discord to share with and get help from an
+          active, friendly community!
+        </p>
+
+        <ul>
+          <li>💬 Say hi in our #introduce-yourself channel!</li>
+          <li>
+            💬 Ask our Support Squad a question in our #support-threads
+            channel!
+          </li>
+          <li>
+            💬 Share what you've been working on in our #showcase channel!
+          </li>
+        </ul>
+   
+    </div>
+  </section>
+</Layout>
